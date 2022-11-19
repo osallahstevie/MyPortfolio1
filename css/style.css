@@ -24,12 +24,12 @@
 .imageAboutPage {
     width: 100%;
 }
-/* services section css */
-.servicesText.card {
+/* myprojects section css */
+.myprojectsText.card {
     height: 280px;
     cursor: pointer;
   }
-.servicesIcon {
+.myprojectsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -37,9 +37,9 @@
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
+.card:hover .myprojectsIcon {
     color: #008000;
 }
-.servicesText:hover {
+.myprojectsText:hover {
     border: 1px solid #008000;
 }
