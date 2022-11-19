@@ -1,9 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
 /* background image */
-.bgimage {
-    height:100vh;
+body{
+    height:50vh;
     background: url('images/background.jpg');
     background-size:cover;
-    position:relative;
+    position:absolute;
+    margin-top: 5px;
 }
 /* text above image*/
 .hero_title {
@@ -42,4 +44,40 @@
 }
 .myprojectsText:hover {
     border: 1px solid #008000;
+}
+/* myprojects section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.myprojectsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.myprojectsText:hover {
+    border: 1px solid #008000;
+}
+
+.nav-item{
+    margin-top: 0%;
+}
+
+body{
+    background-color: #008000;
+
+}
+/* spacing on all sections */
+#about, #myskills, #myprojects, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
 }
