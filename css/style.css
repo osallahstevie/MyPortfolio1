@@ -28,7 +28,7 @@ body{
 }
 /* myprojects section css */
 .myprojectsText.card {
-    height: 280px;
+    height: 150px;
     cursor: pointer;
   }
 .myprojectsIcon {
