@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
 /* background image */
 body{
-    height:50vh;
+    height: 50vh;
     background: url('images/background.jpg');
     background-size:cover;
     position:absolute;
