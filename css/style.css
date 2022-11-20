@@ -44,25 +44,7 @@ body{
 }
 .myprojectsText:hover {
     border: 1px solid #008000;
-}
-/* myprojects section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.myprojectsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-.card-title {
-    text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.myprojectsText:hover {
-    border: 1px solid #008000;
+
 }
 
 .nav-item{
